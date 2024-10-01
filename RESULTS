@@ -1,0 +1,40 @@
+Training set: (700, 11)
+Test set: (300, 11)
+Logistic Regression:
+Accuracy: 0.78
+Precision: 0.77
+Recall: 0.66
+F1 Score: 0.71
+
+                             Feature  Importance
+0                           Quantity    0.563328
+5     Product line_Sports and travel    0.368542
+3     Product line_Health and beauty    0.273124
+9                    Payment_Ewallet    0.181976
+6                           Branch_B    0.074633
+8                Payment_Credit card    0.069676
+10              Customer type_Normal    0.060510
+7                           Branch_C    0.006657
+4    Product line_Home and lifestyle   -0.061854
+2    Product line_Food and beverages   -0.093031
+1   Product line_Fashion accessories   -0.238557
+
+
+
+Decision Tree:
+Accuracy: 0.75
+Precision: 0.75
+Recall: 0.60
+F1 Score: 0.67
+                             Feature  Importance
+0                           Quantity    0.533202
+10              Customer type_Normal    0.082409
+6                           Branch_B    0.063074
+3     Product line_Health and beauty    0.062521
+9                    Payment_Ewallet    0.053059
+1   Product line_Fashion accessories    0.050517
+7                           Branch_C    0.036613
+8                Payment_Credit card    0.036162
+5     Product line_Sports and travel    0.029425
+4    Product line_Home and lifestyle    0.027467
+2    Product line_Food and beverages    0.025551
